@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 3vw;
+    padding-right: 3vw;
+    font-size: 20px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+}
+
+.dot{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    opacity: 90%;
+    position: absolute;
+    border-radius: 50%;
+    top: -8px;
+    right: 25px;
+}
